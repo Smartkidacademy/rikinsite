@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Section with Animated Footer</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(135deg, #1e3c72 0%, #2a5298 50%, #1e3c72 100%);
+            color: white;
+        }
+        .contact-section {
+            text-align: center;
+            padding: 50px 20px;
+            background: rgba(0, 0, 0, 0.7);
+            border-radius: 10px;
+            margin: 20px;
+        }
+        .contact-title {
+            font-size: 2em;
+            margin-bottom: 20px;
+        }
+        .contact-text {
+            font-size: 1.2em;
+            margin-bottom: 20px;
+        }
+        .social-icons {
+            width: 100px;
+            animation: bounce 2s infinite;
+        }
+        @keyframes bounce {
+            0%, 20%, 50%, 80%, 100% {
+                transform: translateY(0);
+            }
+            40% {
+                transform: translateY(-30px);
+            }
+            60% {
+                transform: translateY(-15px);
+            }
+        }
+        footer {
+            background: #333;
+            padding: 20px;
+            text-align: center;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            color: white;
+            animation: slideUp 1s ease-out;
+        }
+        @keyframes slideUp {
+            from {
+                transform: translateY(100%);
+            }
+            to {
+                transform: translateY(0);
+            }
+        }
+    </style>
+</head>
+<body>
+
+<section class="contact-section">
+    <h2 class="contact-title">Contact</h2>
+    <p class="contact-text">
+        I'm currently looking to join a cross-functional team that values improving people's lives through accessible design. Have a project in mind? Let's connect.
+        <br>
+        <a href="mailto:rshah88@asu.edu">rshah88@asu.edu</a>
+    </p>
+    <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/91e5224973dbf0e78bceb1a0443b4789a5a11d1bec7492beadc3f54d9184b15b?placeholderIfAbsent=true&apiKey=638dd2f14ef1430f8dccdcee6d157635" alt="Social media icons" class="img-fluid social-icons">
+</section>
+
+<footer>
+    © 2024 Rikin Shah. All rights reserved.
+</footer>
+
+</body>
+</html>

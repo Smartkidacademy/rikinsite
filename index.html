@@ -1,2 +1,366 @@
-We are in developing mode 
-<a href="https://rikin.site/Rikin_Shah_Resume_.pdf"> Resume </a>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ibrahim Memon Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            line-height: 1.6;
+            color: #fff;
+            background-color: #11071f;
+        }
+        .navbar {
+            background-color: #1a0b2e;
+        }
+        .navbar-brand img {
+            width: 92px;
+            height: auto;
+        }
+        .navbar-nav .nav-link {
+            color: #fff;
+            font-weight: 600;
+        }
+        .navbar-nav .nav-link:hover {
+            color: #7127ba;
+        }
+        .intro-section {
+            padding: 60px 0;
+        }
+        .profile-image {
+            max-width: 300px;
+            border-radius: 10px;
+        }
+        .greeting {
+            font-size: 2rem;
+            margin-bottom: 20px;
+        }
+        .tagline {
+            font-size: 2.5rem;
+            line-height: 1.2;
+            margin-bottom: 20px;
+        }
+        .tagline-sub {
+            font-size: 1rem;
+            opacity: 0.8;
+        }
+        .bio-section {
+            margin-top: 60px;
+        }
+        .job-title {
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+        }
+        .current-position {
+            font-size: 1.2rem;
+            margin-bottom: 20px;
+        }
+        .bio-description {
+            font-size: 1rem;
+            max-width: 800px;
+        }
+        .work-experience-title {
+            font-size: 2rem;
+            margin-top: 60px;
+            margin-bottom: 40px;
+        }
+        .work-card {
+            background-color: #2c1250;
+            border-radius: 10px;
+            padding: 20px;
+            height: 100%;
+        }
+        .work-card-logo {
+            width: 80px;
+            height: auto;
+            margin-bottom: 20px;
+        }
+        .work-card-title {
+            font-size: 1.5rem;
+            margin-bottom: 10px;
+        }
+        .work-card-description {
+            font-size: 0.9rem;
+            margin-bottom: 20px;
+        }
+        .learn-more-btn {
+            background-color: #7127ba;
+            color: #fff;
+            text-decoration: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            display: inline-block;
+        }
+        .project-image {
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+            margin-bottom: 20px;
+        }
+        .skills-image {
+            max-width: 600px;
+            height: auto;
+            margin: 60px auto;
+            display: block;
+        }
+        .project-section {
+            margin-top: 60px;
+        }
+        .project-title {
+            font-size: 2rem;
+            margin-bottom: 20px;
+        }
+        .project-description {
+            background-color: #2c1250;
+            border-radius: 10px;
+            padding: 20px;
+            margin-bottom: 20px;
+            position: relative;
+        }
+        .project-bg {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            opacity: 0.1;
+            border-radius: 10px;
+        }
+        .project-text {
+            position: relative;
+            z-index: 1;
+        }
+        .project-links {
+            display: flex;
+            gap: 20px;
+        }
+        .project-link-icon {
+            width: 30px;
+            height: auto;
+        }
+        .project-screenshot {
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+        }
+        .contact-section {
+            margin-top: 60px;
+            text-align: center;
+        }
+        .contact-title {
+            font-size: 2rem;
+            margin-bottom: 20px;
+        }
+        .contact-text {
+            font-size: 1rem;
+            max-width: 600px;
+            margin: 0 auto 40px;
+        }
+        .social-icons {
+            max-width: 200px;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#"><img src="E:\semester 2\IFT 530\My portfloio\_fetchpik.com_-high-IAu3CLSyeT_-_Copy-removebg-preview.png" alt="Portfolio logo"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#About">About Me</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#Exp">Experience</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="E:\semester 2\IFT 530\My portfloio\RShah Resume.pdf">Resume</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#Prj">Project</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#Contact">Contact Me</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <main class="container">
+        <section class="intro-section row align-items-center">
+            <div class="col-md-4 mb-4 mb-md-0">
+                <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/c49fb86b-84bd-4b2c-909e-6fb2f324487f?placeholderIfAbsent=true&apiKey=638dd2f14ef1430f8dccdcee6d157635" alt="Ibrahim Memon profile picture" class="img-fluid profile-image">
+            </div>
+            <div class="col-md-8">
+                <h1 class="greeting">Hello! I Am <span style="color: #7127ba">Rikin Shah</span></h1>
+                <div class="tagline">
+                    <!--<h2> <span style="color: #7127ba"></span> ...</h2 -->
+                    <p class="tagline-sub">Leading with Precision: From Classroom to Corporate</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="bio-section">
+            <h2 class="work-experience-title" id="About">About Me</h2>
+
+            <h2 class="job-title">I was a Business Technology analyst.</h2>
+            <p class="current-position">Currently, I'm a graduate Student styduing at<span style="color: #1877f2"> Arizona State University</span></p>
+            <p class="bio-description">I was in Deloitte for 3+ years leveraging Technology like SAP , ETL and many more. I make meaningful and delightful products that create an equilibrium between user needs and business goals.</p>
+        </section>
+
+        <h2 class="work-experience-title" id = "Exp">Work Experience</h2>
+        <div class="row">
+            <div class="col-md-6 mb-4">
+                <article class="work-card">
+                   <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/741c70085b8e7743a148947cff7580ba7e731af9facd352fab990da2954c99c7?placeholderIfAbsent=true&apiKey=638dd2f14ef1430f8dccdcee6d157635" alt="CIB on the Mobile logo" class="work-card-logo">
+                    <h3 class="work-card-title">Arizona State University         
+                        <Br> Feb 2024 - current-position</h3> 
+               <h2> <br> IT Grader and Teaching Assitant </h2>
+                    <p class="work-card-description">• Managing feedback for 30 students ensuring accurate & timely completion of Java assignments with a current 100% completion rate.
+                        • Analyzed student performance using quantitative metrics, resulting in a 20% increase in overall student performance.
+                        • Facilitated student empowerment through active engagement in Java projects and discussions, leading to a 30% improvement in.</p>
+                    <a href="https://search.asu.edu/profile/4241007" class="learn-more-btn">ASU Official Profile</a>
+                </article>
+            </div>
+            <div class="col-md-6 mb-4">
+                <article class="work-card">
+                    <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/3094533a6f71da41336059db99987e349f0ca4f909a58218653e2f5ebc3335d5?placeholderIfAbsent=true&apiKey=638dd2f14ef1430f8dccdcee6d157635" alt="CIB on the Mobile logo" class="work-card-logo">
+                    <h3 class="work-card-title"> Deloitte Consulting (offices of US) </h3>
+                    <p class="work-card-description">Take your client onboard seamlessly by our amazing tool of digital onboard process.</p>
+                    <a href="#learn-more" class="learn-more-btn">LEARN MORE</a>
+                </article>
+            </div>
+        </div>
+
+     <!--   <div class="row">
+            <div class="col-md-6 mb-4">
+                <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/b673a4144ca0169f335fc08d3d040b3465e5e072c1745f1e7743f298cf981c55?placeholderIfAbsent=true&apiKey=638dd2f14ef1430f8dccdcee6d157635" alt="Project screenshot 1" class="project-image">
+            </div>
+            <div class="col-md-6 mb-4">
+                <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/963f29be9a212149e3e5191820c717ccc5313130d08a7400f20f113ea3a71876?placeholderIfAbsent=true&apiKey=638dd2f14ef1430f8dccdcee6d157635" alt="Project screenshot 2" class="project-image">
+            </div>
+        </div> -->
+
+        <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/63d4e6549b38a98d84a90667b4d5eca4c0dc4f446775cfddb1da5ef1e9170f16?placeholderIfAbsent=true&apiKey=638dd2f14ef1430f8dccdcee6d157635" alt="Skills overview" class="img-fluid skills-image">
+
+        <section class="project-section" id = "Prj">
+            <div class="row align-items-center">
+                <div class="col-md-6 mb-4">
+                    <h3 class="project-title">My Project</h3>
+                    <div class="project-description">
+                        <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/25bc07c69c4459efdf4d560fe0df448479fbfbefc4417db1f87cd0eaa31e2570?placeholderIfAbsent=true&apiKey=638dd2f14ef1430f8dccdcee6d157635" alt="Project background" class="project-bg">
+                        <p class="project-text">
+                            <H3><b><u>Sentiment Analysis</H3></b></u>
+                            A web web application that enhances e-commerce experiences by enabling users to select e-products based on sentiment
+                            analysis of user reviews.
+                            • Utilized Python, Natural Language Processing (NLP) libraries, and the Django framework to build the application, demonstrating
+                            proficiency in these technologies and frameworks.
+                            • Leveraged my skills in NLP to perform sentiment analysis on user reviews, providing valuable insights to users and improving their
+                            online shopping experience. 
+                            Have a look at video of the whole project!!!
+                        </p>
+                    </div>
+                    <div class="project-links">
+                        <a href="#github" aria-label="View project on GitHub">
+                            <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/ab2710f4e24f37617440820a84759f33beca78dae9bb5947dd8743ff9230af7f?placeholderIfAbsent=true&apiKey=638dd2f14ef1430f8dccdcee6d157635" alt="GitHub link" class="project-link-icon">
+                        </a>
+                        <a href="#external-link" aria-label="View live project">
+                            <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/d6127bdd3c88b58827d21213df0d817bda587fd984bc03c0f36dcaa5c0def847?placeholderIfAbsent=true&apiKey=638dd2f14ef1430f8dccdcee6d157635" alt="External link" class="project-link-icon">
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-6 mb-4">
+                    <iframe width="560" height="315" src="E:\semester 2\IFT 530\My portfloio\Sentment.mp4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>                        </a>
+                    <a href="#external-link" aria-label="View live project">
+                        <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/d6127bdd3c88b58827d21213df0d817bda587fd984bc03c0f36dcaa5c0def847?placeholderIfAbsent=true&apiKey=638dd2f14ef1430f8dccdcee6d157635" alt="External link" class="project-link-icon">
+                    </a>                </div>
+            </div>
+        </section>
+
+        <section class="project-section">
+            <div class="row align-items-center">
+                <div class="col-md-6 mb-4 order-md-2">
+                    <h3 class="project-title">SmartKid Academy</h3>
+                    <div class="project-description">
+                        <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/f4ce69b22b0a777a49fa06eef7f79c79d29e45e9c16c1d093ae0d76d77e9e877?placeholderIfAbsent=true&apiKey=638dd2f14ef1430f8dccdcee6d157635" alt="Project background" class="project-bg">
+                        <p class="project-text">
+                            This is my own website named as SmartKid Academy
+                        </p>
+                    </div>
+                    <div class="project-links">
+                        <a href="#github" aria-label="View project on GitHub">
+                            <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/882dec99f68e617aa546d36f27ab1327a40d401192701fc47e6603d8c87b4a31?placeholderIfAbsent=true&apiKey=638dd2f14ef1430f8dccdcee6d157635" alt="GitHub link" class="project-link-icon">
+                        </a>
+                        <a href="#external-link" aria-label="View live project">
+                            <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/d057a41527bca1367ef9839d18d39e548e9c96d2ea276be68c1b80a038921ad3?placeholderIfAbsent=true&apiKey=638dd2f14ef1430f8dccdcee6d157635" alt="External link" class="project-link-icon">
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-6 mb-4 order-md-1">
+                    <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/c5289500b40e063fa01aabe45e5264d25c78628c858b109997b61469e3179231?placeholderIfAbsent=true&apiKey=638dd2f14ef1430f8dccdcee6d157635" alt="Project screenshot" class="img-fluid project-screenshot">
+                </div>
+            </div>
+        </section>
+
+        <style>
+            .social-icons {
+                width: 100px;
+                animation: bounce 2s infinite;
+            }
+            @keyframes bounce {
+                0%, 20%, 50%, 80%, 100% {
+                    transform: translateY(0);
+                }
+                40% {
+                    transform: translateY(-30px);
+                }
+                60% {
+                    transform: translateY(-15px);
+                }
+            }
+            footer {
+                background: #333;
+                padding: 20px;
+                text-align: center;
+                position: fixed;
+                bottom: 0;
+                width: 100%;
+                color: white;
+                animation: slideUp 1s ease-out;
+            }
+            @keyframes slideUp {
+                from {
+                    transform: translateY(100%);
+                }
+                to {
+                    transform: translateY(0);
+                }
+            }
+        </style>
+        
+        <section class="contact-section" id ="Contact">
+            <h3 class="project-title" id = "Contact">Contact</h3>
+            <p class="contact-text">
+                I'm currently looking to join a team that values improving people's lives through tech. Have a opportunity for me !! Let's connect.
+                <br>
+                <a href="mailto:rshah88@asu.edu">rshah88@asu.edu</a>
+             <br> <a href="#">+19172385682</a>
+            </p>
+            <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/91e5224973dbf0e78bceb1a0443b4789a5a11d1bec7492beadc3f54d9184b15b?placeholderIfAbsent=true&apiKey=638dd2f14ef1430f8dccdcee6d157635" alt="Social media icons" class="img-fluid social-icons">
+        </section>
+        
+      
+        
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
